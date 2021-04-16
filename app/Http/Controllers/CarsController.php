@@ -42,7 +42,7 @@ class CarsController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function show(Car $car) {
-        //
+        return view('cars.show', compact('car'));
     }
 
     /**

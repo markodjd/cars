@@ -49,6 +49,7 @@
         .cars-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
         }
 
         .cars-title {
@@ -59,6 +60,13 @@
             font-size: 0.7rem;
             color: gray;
             font-style: italic;
+        }
+
+        .grid-item {
+            padding: 2rem;
+            background: #f2f2f2;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px #f2f2f2;
         }
 
     </style>
