@@ -5,7 +5,8 @@
 @section('content')
 
     <div>
-        <h1>Welcome to cars!</h1>
+        <h1>Welcome {{ $name }}!</h1>
+        <h1>I'm {{ $age }} years old!</h1>
     </div>
 
 @endsection

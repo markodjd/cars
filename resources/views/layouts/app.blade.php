@@ -21,6 +21,10 @@
             font-family: 'Nunito', sans-serif;
         }
 
+        main {
+            padding: 2rem;
+        }
+
         header {
             display: flex;
             justify-content: space-between;
@@ -55,7 +59,9 @@
             </ul>
         </nav>
     </header>
-    @yield('content')
+    <main>
+        @yield('content')
+    </main>
 </body>
 
 </html>
