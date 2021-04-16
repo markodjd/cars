@@ -46,6 +46,21 @@
             font-weight: 700;
         }
 
+        .cars-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .cars-title {
+            margin-bottom: 50px;
+        }
+
+        .small {
+            font-size: 0.7rem;
+            color: gray;
+            font-style: italic;
+        }
+
     </style>
 </head>
 
@@ -55,6 +70,7 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
+                <li><a href="{{ route('cars') }}">Cars</a></li>
                 <li><a href="/about">About</a></li>
             </ul>
         </nav>
