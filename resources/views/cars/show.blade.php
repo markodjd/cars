@@ -7,12 +7,12 @@
     <div>
         <h1 class="cars-title">{{ $car->model }}</h1>
         <div class="cars-container">
-            <div class="cars-title">
-                <h3><a href="/cars/{{ $car->id }}">{{ $car->model }} {{ $car->producer }}</a> <small
-                        class="small">- added
+            <div class="cars-title grid-item">
+                <h2>{{ $car->title }} <small class="small">- added
                         {{ $car->created_at->diffForHumans() }}</small>
-                </h3>
-                <p>Number of doors: {{ $car->number_of_doors }}</p>
+                </h2>
+                <p>Producer: <strong>{{ $car->producer }}</strong></p>
+                <p>Number of doors: <strong>{{ $car->number_of_doors }}</strong></p>
             </div>
         </div>
     </div>

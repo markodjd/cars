@@ -29,6 +29,7 @@
             display: flex;
             justify-content: space-between;
             padding: 1.3rem 2rem;
+            background-color: rgb(36, 36, 36);
         }
 
         nav ul {
@@ -41,7 +42,7 @@
         }
 
         header a {
-            color: rgb(46, 46, 46);
+            color: rgb(212, 212, 212);
             text-decoration: none;
             font-weight: 700;
         }
@@ -54,6 +55,11 @@
 
         .cars-title {
             margin-bottom: 50px;
+        }
+
+        .cars-title a {
+            color: rgb(44, 44, 44);
+            text-decoration: none;
         }
 
         .small {
